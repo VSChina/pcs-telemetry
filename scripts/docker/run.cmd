@@ -1,7 +1,7 @@
 @ECHO off & setlocal enableextensions enabledelayedexpansion
 
 :: Note: use lowercase names for the Docker images
-SET DOCKER_IMAGE="azureiotpcs/telemetry-dotnet"
+SET DOCKER_IMAGE="vschinaiot/pcs-telemetry"
 
 :: strlen("\scripts\docker\") => 16
 SET APP_HOME=%~dp0
